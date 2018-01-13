@@ -43,10 +43,6 @@
           return true
         }
         return false
-      },
-      viewTransition () {
-        if (!this.direction) return ''
-        return 'vux-pop-' + (this.direction === 'forward' ? 'in' : 'out')
       }
     }
   }

@@ -61,7 +61,7 @@
             this.$vux.toast.show({
               text: res.data.msg,
               type: 'text',
-              width: "20em"
+              width: '20em'
             })
           }
         }).catch(() => {

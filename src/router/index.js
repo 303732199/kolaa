@@ -70,13 +70,6 @@ export default new Router({
       }
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: function (resolve) {
-        require(['../components/contact-us.vue'], resolve)
-      }
-    },
-    {
       path: '/login',
       name: 'login',
       component: function (resolve) {
